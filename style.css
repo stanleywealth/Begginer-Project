@@ -1,0 +1,193 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #525252;
+    margin-left: 20px;
+}
+
+nav a img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+}
+
+.profile {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #525252;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.grid-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.grid-icon:hover {
+    background-color: rgba(211, 209, 209, 0.75);
+}
+
+main {
+    width: 100%;
+}
+
+.wrapper {
+    width: 620px;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    padding: 30px;
+}
+
+.search-bar {
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    border: 1px solid #dddddd;
+    padding: 0px 20px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.search-bar input {
+    width: 100%;
+    border: none;
+    background-color: #fff;
+    margin: 0px 20px;
+    outline: none;
+}
+
+.search-bar:hover {
+    box-shadow: 1px 2px 2px 2px rgba(213, 216, 219, 0.75);
+}
+
+.mic-icon,
+.lens-icon {
+    width: 25px;
+    height: 25px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.search-icon {
+    width: 18px;
+    height: 18px;
+    padding-top: 20px;
+}
+
+.mic-icon {
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn button {
+    width: 150px;
+    height: 40px;
+    background-color: #f8f8f8;
+    color: #424242;
+    margin: 0px 10px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+}
+
+.btn button:hover {
+    border: 2px solid rgba(186, 189, 192, 0.75);
+}
+
+.languages {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+p a {
+    padding: 0px 3px;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    background-color: #eeeded;
+}
+
+.footer-links {
+    padding: 0px 20px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    color: #7e8286;
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #7e8286;
+    padding: 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.nigeria {
+    padding: 0px 25px;
+    color: #7e8286;
+    font-size: 14px;
+}
